@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "model-garden-topic-modelling"
+version = "0.1.0"
+description = ""
+authors = ["Moustafa <mosafehashf@gmail.com>"]
+readme = "README.md"
+packages = [{include = "model_garden_topic_modelling"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
