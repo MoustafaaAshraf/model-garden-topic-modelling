@@ -8,6 +8,7 @@ packages = [{include = "model_garden_topic_modelling"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+commitizen = "^3.17.0"
 
 
 [build-system]
